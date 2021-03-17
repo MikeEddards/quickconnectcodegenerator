@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bwip-js": "^2.1.1",
-    "express": "^4.17.1"
+    "bwip-js": "^2.1.1"
   }
 }
