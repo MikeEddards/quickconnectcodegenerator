@@ -6,7 +6,7 @@ const server = express()
 /* route requests for static files to appropriate directory */
 server.use('/public', express.static(__dirname))
 server.use(express.static(__dirname + '/node_modules'))
-server.use('/node_modules',express.static(path.join(__dirname , 'node_modules')));
+server.use('/node_modules',express.static(path.join(__dirname , '/node_modules')));
 
 
 
