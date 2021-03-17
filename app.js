@@ -9,7 +9,7 @@ server.use(express.static(__dirname + '/node_modules'))
 server.use('/node_modules',express.static(path.join(__dirname , 'node_modules')));
 
 
-/* final catch-all route to index.html defined last */
+
 server.get('/*', (req, res) => {
   res.sendFile(__dirname + '//index.html');
 })
